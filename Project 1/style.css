@@ -1,0 +1,189 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+.dark-theme {
+    --background-color: black;
+    --text-color: white;
+}
+
+.toggle-button img{
+    width: 25px;
+    margin-right: 10px;
+    gap: 5px;
+}
+
+.toggle-button{
+    background: rgb(46, 20, 213);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+
+body {
+    margin: 0px;
+    background-color: var(--background-color); /* Set default background color */
+    color: var(--text-color); /* Set default text color */
+}
+
+/* Add light and dark mode styles to specific elements */
+.overskrift {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-image: url("image/logo.jpg");
+    color: white;
+}
+
+.monster_hunter,
+.final_fantasy,
+.legend_of_zelda {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add light and dark mode styles to specific elements */
+.monster_hunter,
+.final_fantasy,
+.legend_of_zelda {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content,
+.informasion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.monster_hunter{
+    min-height:100vh ; 
+    background-image: url("image/monster_hunter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.monster{
+    position: center;
+    margin: 0px auto;
+}
+
+.final_fantasy{
+    height: 600px;
+    background-image: url("image/final_fantasy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fantasy{
+    position: center;
+    margin: 0px auto;
+}
+
+.fantasy_two{
+    position: center;
+    margin: 0px auto;
+}
+
+.legend_of_zelda{
+    height: 600px;
+    background-image: url("image/legend_of_zelda.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zelda{
+    position: center;
+    margin: 0px auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;   
+}
+
+/* Add light and dark mode styles to specific elements */
+.content,
+.informasion {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+iframe {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* Add light and dark mode styles to specific elements */
+iframe {
+    border: 1px solid var(--text-color);
+}
+
+/* Add light and dark mode styles to specific elements */
+.toggle-button {
+    background: rgb(18, 157, 221);
+    color: white;
+}
+
+/* Add light and dark mode styles to specific elements */
+.toggle-button img {
+    filter: brightness(0.8);
+}
+
+/* Responsive styles (you can customize as needed) */
+@media (max-width: 1025px) {
+    /* Add responsive styles for desktop */
+}
+
+@media (max-width: 770px) {
+    /* Add responsive styles for tablet */
+}
+
+@media (max-width: 426px) {
+    /* Add responsive styles for mobile */
+}
